@@ -1,0 +1,147 @@
+.container{
+width: 100%;
+height:100vh;
+padding: 0;
+margin: 0;
+ background-image: url(image/bac.jpg);
+ background-size: 100% 100%;
+ background-repeat: no-repeat;
+ background-position: 100% 100%;
+ background-attachment: fixed;
+}
+
+.meni{
+  position: absolute;
+    width: 28vw;
+    height: 10vh;
+    background-color: rgba(49, 18, 3, 0.692);
+    border-radius: 10px;
+    margin-top: 10vh;
+    margin-left: 3vw;
+}
+.meni h1{
+    font-size: 2vw;
+    margin-left: 4VW;
+    color: aliceblue;
+    filter: drop-shadow(5px 10px 5px rgb(0, 0, 0));
+}
+.but{
+    position: absolute;
+    width: 30vw;
+    height: 6vh;
+    background-color: rgba(49, 18, 3, 0.692);
+    border-radius: 10px;
+    margin-top: 25vh;
+    margin-left: 3vw; 
+}
+.but button{
+width: 10%;
+    font-size: 55%;
+    width: 5vw;
+    height: 3vh;
+    margin-left: 2vw;
+    margin-top: 1vh;
+    border-radius: 5px;
+    color: aliceblue;
+    background-color:rgb(51, 12, 2) ;
+}
+.moh{
+    position: absolute;
+    background-color: rgba(44, 18, 2, 0.596);
+    width: 40vw;
+    height: 50vh;
+    margin-top: 35vh;
+    margin-left: 30vw;
+    border-radius: 10px;
+}
+.imo{
+position: absolute;
+    width: 40vw;
+    height: 20vh;
+    margin-top: 60%;
+    margin-left: 20vw;
+    border-radius: 40px;
+}
+.imm{
+
+    width: inherit;
+    height:inherit;
+ 
+}
+
+.p1{
+    position: absolute;
+    width:0vw;
+    height:0vh;
+    border-radius: inherit;
+    transition: 0.2s;
+}
+.p2{
+    position: absolute;
+    width: 0vw;
+    height: 0vw;
+    border-radius: inherit;
+    transition: 0.2s;
+}
+.p3{
+    position: absolute;
+    width: 0vw;
+    height: 0vw;
+    border-radius: inherit;
+    transition: 0.2s;
+}
+.p4{
+    position: absolute;
+    width: 0vw;
+    height: 0vw;
+    border-radius: inherit;
+    transition: 0.2s;
+}
+@media(max-width:500px){
+    .meni{
+        position: absolute;
+        width: 95vw;
+        height: 10vh;
+        background-color: rgba(49, 18, 3, 0.692);
+        border-radius: 10px;
+        margin-top: 10vh;
+        margin-left: 2vw;
+    }
+    .meni h1{
+       
+        margin-top: 1%;
+       font-size: 150%;
+        margin-left: 4VW;
+        color: beige;
+        filter: drop-shadow(5px 10px 5px rgb(0, 0, 0));
+    }
+    .but{
+        position: absolute;
+        width: 95vw;
+        height: 5vh;
+        background-color: rgba(49, 18, 3, 0.692);
+        border-radius: 10px;
+        margin-top: 80vh;
+        margin-left: 2vw; 
+    }
+    .but button{
+        font-size: 50%;
+        width: 18vw;
+        height: 3vh;
+        margin-left: 2vw;
+        margin-top: 1vh;
+        border-radius: 5px;
+        color: aliceblue;
+        background-color:rgb(51, 12, 2) ;
+    }
+    .moh{
+        position: absolute;
+        background-color: rgba(44, 18, 2, 0.596);
+        width: 95vw;
+        height: 50vh;
+        margin-top: 24vh;
+        margin-left: 2vw;
+        border-radius: 10px;
+    }
+
+}
